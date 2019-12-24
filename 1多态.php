@@ -43,8 +43,8 @@ class Client{
         $animal->climb();
     }
 
-    # 在弱语言类型中(php)---多态在弱类型语言中很鸡肋
-    //如果$animal的类型不写，那么可以使用很合拥有climb方法的类
+    # 在弱语言类型中(php/python)---多态在弱类型语言中很鸡肋
+    //如果$animal的类型不写，那么可以使用任何拥有climb方法的类
     public static function call2($animal){
         $animal->climb();
     }
