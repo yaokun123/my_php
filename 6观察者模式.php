@@ -10,7 +10,7 @@
 
 
 
-// PHP5中提供了观察者observer与被观察者subject的接口
+// PHP5中提供了 观察者observer 与 被观察者subject 的接口
 
 
 class user implements SplSubject{
