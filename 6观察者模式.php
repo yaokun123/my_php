@@ -6,11 +6,11 @@
  * Time: 下午9:03
  */
 
-// js版本的观察者模式请到/yaokun/test/my_js/观察者模式
+// js版本的观察者模式示例请到/yaokun/test/my_js/观察者模式
 
 
 
-// PHP5中提供了观察者observer与被观察者subject的接口
+// PHP5中提供了 观察者observer 与 被观察者subject 的接口
 
 
 class user implements SplSubject{

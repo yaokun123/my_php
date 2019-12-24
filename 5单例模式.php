@@ -29,6 +29,9 @@ echo "====================".PHP_EOL;
 
 class sigle{
     protected static $ins = null;
+
+    // protected防止类外部new
+    // final 防止继承sigle类然后覆盖父类的方法
     final protected function __construct()
     {
     }
@@ -40,6 +43,7 @@ class sigle{
         return self::$ins;
     }
 
+    //防止克隆
     final protected function __clone()
     {
 
