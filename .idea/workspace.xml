@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5757c90f-d79d-4b4b-853f-e16a1434bdee" name="Default" comment="单例模式" />
+    <list default="true" id="5757c90f-d79d-4b4b-853f-e16a1434bdee" name="Default" comment="php观察者">
+      <change afterPath="$PROJECT_DIR$/0面向对象的设计原则.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,39 +16,50 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="php" value="13" />
+          <entry key="php" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="13" />
+          <entry key="PHP" value="15" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="2" />
-          <entry key="php" value="81" />
-          <entry key="txt" value="22" />
+          <entry key="php" value="1250" />
+          <entry key="txt" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="81" />
-          <entry key="PLAIN_TEXT" value="24" />
+          <entry key="PHP" value="1250" />
+          <entry key="PLAIN_TEXT" value="43" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/0面向对象的设计原则.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1390">
+              <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -59,10 +73,11 @@
         <option value="$PROJECT_DIR$/2面向接口开发.php" />
         <option value="$PROJECT_DIR$/3简单工厂模式.php" />
         <option value="$PROJECT_DIR$/4工厂模式.php" />
-        <option value="$PROJECT_DIR$/6观察者模式.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/1多态.php" />
         <option value="$PROJECT_DIR$/5单例模式.php" />
+        <option value="$PROJECT_DIR$/6观察者模式.php" />
+        <option value="$PROJECT_DIR$/0面向对象的设计原则.php" />
       </list>
     </option>
   </component>
@@ -74,8 +89,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.0" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="394" />
-    <option name="y" value="33" />
+    <option name="x" value="211" />
+    <option name="y" value="23" />
     <option name="width" value="1467" />
     <option name="height" value="900" />
   </component>
@@ -115,6 +130,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,7 +146,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -150,10 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.5单例模式.php">
-    <configuration name="1多态.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/1多态.php">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="PHP Script.6观察者模式.php">
     <configuration name="2面向接口开发.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/2面向接口开发.php">
       <method v="2" />
     </configuration>
@@ -166,20 +178,23 @@
     <configuration name="5单例模式.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/5单例模式.php">
       <method v="2" />
     </configuration>
+    <configuration name="6观察者模式.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/6观察者模式.php">
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="PHP Script.1多态.php" />
       <item itemvalue="PHP Script.2面向接口开发.php" />
       <item itemvalue="PHP Script.3简单工厂模式.php" />
       <item itemvalue="PHP Script.4工厂模式.php" />
       <item itemvalue="PHP Script.5单例模式.php" />
+      <item itemvalue="PHP Script.6观察者模式.php" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.6观察者模式.php" />
         <item itemvalue="PHP Script.5单例模式.php" />
         <item itemvalue="PHP Script.4工厂模式.php" />
         <item itemvalue="PHP Script.3简单工厂模式.php" />
         <item itemvalue="PHP Script.2面向接口开发.php" />
-        <item itemvalue="PHP Script.1多态.php" />
       </list>
     </recent_temporary>
   </component>
@@ -195,6 +210,7 @@
       <updated>1577099962765</updated>
       <workItem from="1577099965161" duration="6933000" />
       <workItem from="1577151207654" duration="1544000" />
+      <workItem from="1577153439100" duration="3287000" />
     </task>
     <task id="LOCAL-00001" summary="加上忽略文件">
       <created>1577152033046</created>
@@ -217,19 +233,33 @@
       <option name="project" value="LOCAL" />
       <updated>1577152874134</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="js观察者">
+      <created>1577153472608</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577153472608</updated>
+    </task>
+    <task id="LOCAL-00005" summary="php观察者">
+      <created>1577153572559</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1577153572559</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8477000" />
+    <option name="totallyTimeSpent" value="11764000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="394" y="33" width="1467" height="900" extended-state="0" />
+    <frame x="629" y="23" width="1467" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14526317" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14736842" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32866243" />
@@ -241,6 +271,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -257,7 +288,9 @@
     <MESSAGE value="加上忽略文件" />
     <MESSAGE value="多态" />
     <MESSAGE value="单例模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="单例模式" />
+    <MESSAGE value="js观察者" />
+    <MESSAGE value="php观察者" />
+    <option name="LAST_COMMIT_MESSAGE" value="php观察者" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_c.php">
@@ -271,13 +304,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="422">
           <caret line="1814" column="42" selection-start-line="1814" selection-start-column="32" selection-end-line="1814" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6观察者模式.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
@@ -320,6 +346,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6观察者模式.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0面向对象的设计原则.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1390">
+          <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
         </state>
       </provider>
     </entry>
