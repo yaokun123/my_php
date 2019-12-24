@@ -6,7 +6,7 @@
  * Time: 下午9:03
  */
 
-// js版本的观察者模式请到/yaokun/test/my_js/观察者模式
+// js版本的观察者模式示例请到/yaokun/test/my_js/观察者模式
 
 
 
