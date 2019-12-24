@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5757c90f-d79d-4b4b-853f-e16a1434bdee" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/8策略模式.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/9装饰器模式.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,11 +51,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="8策略模式.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/8策略模式.php">
+      <file leaf-file-name="9装饰器模式.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/9装饰器模式.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="51" column="38" lean-forward="true" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+            <state relative-caret-position="1748">
+              <caret line="97" column="5" lean-forward="true" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -83,6 +83,7 @@
         <option value="$PROJECT_DIR$/0面向对象的设计原则.php" />
         <option value="$PROJECT_DIR$/7责任链模式.php" />
         <option value="$PROJECT_DIR$/8策略模式.php" />
+        <option value="$PROJECT_DIR$/9装饰器模式.php" />
       </list>
     </option>
   </component>
@@ -94,9 +95,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="567" />
+    <option name="x" value="113" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="1204" />
     <option name="height" value="819" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -182,26 +183,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.6观察者模式.php">
+  <component name="RunManager" selected="PHP Script.9装饰器模式.php">
     <configuration name="2面向接口开发.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/2面向接口开发.php" />
     <configuration name="3简单工厂模式.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/3简单工厂模式.php" />
     <configuration name="4工厂模式.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/4工厂模式.php" />
-    <configuration name="5单例模式.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/5单例模式.php" />
     <configuration name="6观察者模式.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/6观察者模式.php" />
+    <configuration name="9装饰器模式.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/9装饰器模式.php" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="PHP Script.5单例模式.php" />
-      <item index="1" class="java.lang.String" itemvalue="PHP Script.3简单工厂模式.php" />
-      <item index="2" class="java.lang.String" itemvalue="PHP Script.6观察者模式.php" />
-      <item index="3" class="java.lang.String" itemvalue="PHP Script.2面向接口开发.php" />
-      <item index="4" class="java.lang.String" itemvalue="PHP Script.4工厂模式.php" />
+      <item index="0" class="java.lang.String" itemvalue="PHP Script.3简单工厂模式.php" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Script.6观察者模式.php" />
+      <item index="2" class="java.lang.String" itemvalue="PHP Script.2面向接口开发.php" />
+      <item index="3" class="java.lang.String" itemvalue="PHP Script.4工厂模式.php" />
+      <item index="4" class="java.lang.String" itemvalue="PHP Script.9装饰器模式.php" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="PHP Script.4工厂模式.php" />
-        <item index="1" class="java.lang.String" itemvalue="PHP Script.2面向接口开发.php" />
-        <item index="2" class="java.lang.String" itemvalue="PHP Script.6观察者模式.php" />
-        <item index="3" class="java.lang.String" itemvalue="PHP Script.3简单工厂模式.php" />
-        <item index="4" class="java.lang.String" itemvalue="PHP Script.5单例模式.php" />
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.9装饰器模式.php" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.4工厂模式.php" />
+        <item index="2" class="java.lang.String" itemvalue="PHP Script.2面向接口开发.php" />
+        <item index="3" class="java.lang.String" itemvalue="PHP Script.6观察者模式.php" />
+        <item index="4" class="java.lang.String" itemvalue="PHP Script.3简单工厂模式.php" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +220,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577099962765</updated>
       <workItem from="1577099965161" duration="7369000" />
-      <workItem from="1577191872722" duration="2462000" />
+      <workItem from="1577191872722" duration="5234000" />
     </task>
     <task id="LOCAL-00001" summary="责任链模式">
       <created>1577193547473</created>
@@ -228,25 +229,32 @@
       <option name="project" value="LOCAL" />
       <updated>1577193547473</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="策略模式">
+      <created>1577194914494</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577194914494</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9831000" />
+    <option name="totallyTimeSpent" value="12603000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="567" y="23" width="1440" height="819" extended-state="0" />
+    <frame x="113" y="23" width="1204" height="819" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17668097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21256454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281027" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39942938" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -265,7 +273,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="责任链模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="责任链模式" />
+    <MESSAGE value="策略模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="策略模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -362,8 +371,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/8策略模式.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="51" column="38" lean-forward="true" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+        <state relative-caret-position="394">
+          <caret line="53" column="26" lean-forward="false" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9装饰器模式.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1748">
+          <caret line="97" column="5" lean-forward="true" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
           <folding />
         </state>
       </provider>
