@@ -58,9 +58,20 @@ class emaildanger extends email{}
 abstract class info{
     protected $send = null;
 
+    public function __construct($send)
+    {
+        $this->send = $send;
+    }
+
     abstract public function msg($content);
 
-   // abstract public function send();
+    public function send($to,$content){
+        $content = $this->msg($content);
+        $this->send->send($to,$content);
+    }
+}
+abstract class sd{
+    abstract public function send($to,$content);
 }
 
 class commoninfo extends info{
@@ -83,3 +94,30 @@ class dangerinfo extends info{
         return '特急'.$content;
     }
 }
+
+class zn2 extends sd{
+    public function send($to,$content)
+    {
+        echo '站内给'.$to.',内容是：'.$content.PHP_EOL;
+    }
+}
+class email2 extends sd{
+    public function send($to,$content)
+    {
+        echo 'email给'.$to.',内容是：'.$content.PHP_EOL;
+    }
+}
+class sms2 extends sd{
+    public function send($to,$content)
+    {
+        echo 'sms给'.$to.',内容是：'.$content.PHP_EOL;
+    }
+}
+
+// 用站内发普通信息
+$commoninfo = new commoninfo(new zn2());
+$commoninfo->send('xiaoming','test');
+
+//用手机发特急信息
+$dangerinfo = new dangerinfo(new sms2());
+$dangerinfo->send('xiaozhang','test');
