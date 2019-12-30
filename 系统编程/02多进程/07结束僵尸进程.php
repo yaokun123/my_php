@@ -35,6 +35,7 @@ if ($ppid == posix_getpid())
         echo "回收子进程：$id, 子进程退出状态值: $status...\n";
     }
 
+
     exit("父进程退出 $id....\n"); //当子进程全部结束 pcntl_wait 返回-1
 }
 else
