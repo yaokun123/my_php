@@ -48,7 +48,6 @@ root      2973  2971  0 14:13 pts/0    00:00:00 [php] <defunct>
 root      2974  2971  0 14:13 pts/0    00:00:00 [php] <defunct>
 root      2975  2971  0 14:13 pts/0    00:00:00 [php] <defunct>
 root      2976  2971  0 14:13 pts/0    00:00:00 [php] <defunct>
-root      2978  2912  0 14:13 pts/1    00:00:00 grep php
  */
 
 
