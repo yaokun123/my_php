@@ -37,7 +37,8 @@ $callback = function($signo){
 };
 
 
-
+// 安装一个信号处理器
+// 为signo指定的信号安装一个新 的信号处理器。
 pcntl_signal(SIGINT, $callback);
 pcntl_signal(SIGHUP, $callback);
 pcntl_signal(SIGTSTP, $callback);
@@ -47,12 +48,16 @@ pcntl_signal(SIGTSTP, $callback);
 while(1)
 {
     sleep(100);
+
+    // 之前使用declare(ticks = 1) + pcntl_signal
+    // PHP5.4以上版本就不再依赖ticks了，转而使用pcntl_signal_dispatch，在代码循环中自行处理信号。
     pcntl_signal_dispatch();
 }
 
 
 
 /**
+ * 如果不自己处理SIGHUP信号的，进程会退出。
  * 运行起该程序，然后直接关掉终端，重新登录shell，会发现该程序仍在运行，daemon.txt 文件中会 记录捕获到的SIGHUP信号。
  */
 
