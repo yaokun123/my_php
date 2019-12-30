@@ -45,14 +45,20 @@ if ($pid > 0) {
  * 利用子进程成功创建了新的会话。
  *
  *
-父进程会话id: 545
-父进程id: 741
-父进程进程组id: 741
+父进程会话id: 72423---------->iterm终端的会话id
+父进程id: 13228--------------
+父进程进程组id: 13228--------->父进程是进程组长，所以父进程是不能产生会话id的
 不是进程组组长
-子进程会话id: 545
-子进程号id: 742
-子进程组id：741
-/yaokun/test/my_php/phpsysprogram/daemonprocess3.php:37:
-int(742)
-当前进程所属会话ID：742
+子进程会话id: 72423---------->继承父进程的会话（iterm终端的会话id）
+子进程号id: 13229------------>子进程不是进程组长，因此子进程是可以产生一个新的会话的
+子进程组id：13228
+/yaokun/my_php/系统编程/01进程组_会话_控制终端_控制进程/03使用子进程创建会话.php:37:
+int(13229)
+当前进程所属会话ID：13229-------->子进程产生新的会话id就是子进程的id
+ *
+ * 查看进程之间的关系(pstree)：
+ * |-+= 00409 yaok /Applications/iTerm.app/Contents/MacOS/iTerm2 -psn_0_86037
+ * | \-+= 72423 yaok /Applications/iTerm.app/Contents/MacOS/iTerm2 --server login -fp yaok---->【会话组长】
+ * |   \-+= 72424 root login -fp yaok
+ * |     \-+= 72425 yaok -bash
  */
