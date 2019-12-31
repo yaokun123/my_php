@@ -7,6 +7,8 @@
  */
 
 /**
+ * unixdomainsocket
+ *
  * Socket API一开始是为了解决网络通讯而设计的，而后来在此之上又衍生出一种叫做本地套接字（Unix Domain Socket）的技术，
  * 本地套接字顾名思义，只支持本地的两个进程之间进行通信，虽然网络套接字（Internet Domain Socket）也可以通过本地回环地址（127.0.0.1）
  * 来实现本地进程间通信，但由于本地套接字不需要经过网络协议栈，封包拆包、计算校验和等操作，所以效率上相比网络套接字有一定的优势。
@@ -79,7 +81,7 @@ listen = /dev/shm/php-fpm.sock
  *
  *其实PHP的本地套接字编程和网络套接字基本一致，只是传的参数不一样。
  *
- * PHP为socket编程提供了两套API，一套是 socket_* 系列方法，这在我们前面的系列文章里演示过了，
+ * PHP为socket编程提供了两套API，一套是 socket_* 系列方法，这在我们前面的系列代码里演示过了，
  * 另一套是 stream_socket_* 系列方法，而后者使用起来更加的方便，这里我们采用后者来演示。
  */
 
@@ -117,7 +119,7 @@ if (!$server) {
 
 
 while(true) {
-    $conn = stream_socket_accept($server, 5);
+    $conn = stream_socket_accept($server, 100);
 
     if ($conn) {
         while(true) {

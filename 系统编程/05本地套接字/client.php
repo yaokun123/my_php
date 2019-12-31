@@ -17,7 +17,12 @@ if (!$client) {
 
 
 while(true) {
-    $msg = fread(STDIN, 1024);
+    fwrite(STDOUT,'>>');
+
+    $msg = fgets(STDIN);
+
+
+    //$msg = fread(STDIN, 1024);
 
     if ($msg == "quit\n") {
         break;
