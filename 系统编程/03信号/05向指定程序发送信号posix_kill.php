@@ -37,5 +37,7 @@ declare(ticks = 1)
 }
 
 
-//不过现在想要结束程序，需要使用 kill -9 了。
+//不过现在想要结束程序，需要使用 kill -9 processID了。
+//使用kill向processID进程发送一个9信号
 
+//SIGKILL（9号信号）和 SIGSTOP （17号信号）这两个信号是无法被我们自己捕获和处理的
