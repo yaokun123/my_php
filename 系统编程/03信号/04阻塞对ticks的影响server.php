@@ -7,7 +7,7 @@
  */
 
 
-// 为 SIGINT 信号注册信号处理函数
+// 为 2号 信号注册信号处理函数(ctrl+c)
 pcntl_signal(SIGINT, function(){
     echo "捕获到了 SIGINT 信号" . PHP_EOL;
 });
@@ -38,6 +38,15 @@ declare(ticks=1)
  *
  * 连按了五次 Ctrl + c ，信号函数都没有被调用，然后有一个客户端连接到了服务器，信号处理函数连续被调用了五次。
  * 作为对比，我这里用C写一个逻辑相同的程序来做对比，看看C语言里的信号处理是否有这种情况存在：
+ *
+ *
+^C^C^C^C^C
+捕获到了 SIGINT 信号
+捕获到了 SIGINT 信号
+捕获到了 SIGINT 信号
+捕获到了 SIGINT 信号
+捕获到了 SIGINT 信号
+客户端连接服务器: Resource id #5
  */
 
 //见signal.c文件
