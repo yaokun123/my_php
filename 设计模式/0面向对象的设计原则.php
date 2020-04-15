@@ -93,7 +93,7 @@
 
 
 /**
- * 6、接口隔离原则ISP
+ * 6、接口隔离原则ISP(Interface Segregation Principle)
  *
  * 设计接口功能尽量细粒度，最小功能单元
  * 不应该强迫客户程序依赖他们不用的方法
