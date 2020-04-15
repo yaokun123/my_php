@@ -32,7 +32,7 @@
 
 
 /**
- * 1、单一职责原则SRP
+ * 1、单一职责原则SRP（Single Responsibility Principle）
  *
  * 一个类应该仅有一个引起它变化的原因
  * 变化的方向隐含着类的责任
