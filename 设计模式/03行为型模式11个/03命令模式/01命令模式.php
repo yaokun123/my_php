@@ -52,11 +52,11 @@ class Tv
         echo "The television is on.".PHP_EOL;
     }
     public function turnOff(){//关闭电视机
-        echo "The television is off."."<br/>";
+        echo "The television is off.".PHP_EOL;
     }
     public function turnChannel($channel){//切换频道
         $this->curr_channel=$channel;
-        echo "This TV Channel is ".$this->curr_channel."<br/>";
+        echo "This TV Channel is ".$this->curr_channel.PHP_EOL;
     }
 }
 
@@ -144,6 +144,8 @@ class Control
 //测试代码
 // 命令接收者 　
 $myTv = new Tv();
+
+//命令
 $on = new CommandOn($myTv);
 $off = new CommandOff($myTv);
 $channel = new CommandChannel($myTv, 2);
