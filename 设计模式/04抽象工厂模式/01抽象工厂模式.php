@@ -93,3 +93,8 @@ class  Client {
 
 $f = new Client;
 $f->test();
+
+
+
+
+//https://www.cnblogs.com/mingaixin/p/4324156.html
