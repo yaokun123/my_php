@@ -32,7 +32,9 @@ class Father {
 $f = new Father();
 
 print get_class($f->getNewFather());
+echo PHP_EOL;
 print get_class($f->getNewCaller());
+echo PHP_EOL;
 /**
  * 注意，上面的代码get_class()方法是用于获取实例所属的类名。
  * 这里的结果是：无论调用getNewFather()还是调用getNewCaller()返回的都是Father这个类的实例。
@@ -41,7 +43,7 @@ print get_class($f->getNewCaller());
  */
 
 
-
+print_r('---------------'.PHP_EOL);
 class Sun1 extends Father {
 
 }
@@ -53,9 +55,14 @@ class Sun2 extends Father {
 $sun1 = new Sun1();
 $sun2 = new Sun2();
 
-print get_class($sun1->getNewFather());
-print get_class($sun1->getNewCaller());
+print get_class($sun1->getNewFather());//new self()->Father
+echo PHP_EOL;
+print get_class($sun1->getNewCaller());//new static()->Sun1
+echo PHP_EOL;
+
+print_r('---------------'.PHP_EOL);
 print get_class($sun2->getNewFather());
+echo PHP_EOL;
 print get_class($sun2->getNewCaller());
 
 /**
