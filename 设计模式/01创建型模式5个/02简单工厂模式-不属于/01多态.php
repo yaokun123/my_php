@@ -52,6 +52,7 @@ class Client{
 
 Client::call(new XTiger());
 Client::call(new MTiger());
+//Client::call(new Cat());//只能传Tiger类型
 print_r("==================".PHP_EOL);
 
 Client::call2(new XTiger());
