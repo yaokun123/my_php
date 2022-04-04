@@ -2,6 +2,13 @@
 //默认控制器
 
 class IndexController extends Yaf_Controller_Abstract {
+
+    // 首先会执行init方法
+    public function init()
+    {
+       //
+    }
+
     public function indexAction() {//默认Action
         $this->getView()->assign("content", "Hello World");
 
