@@ -11,3 +11,6 @@ $app->run();
 // Bootstrap, 也叫做引导程序. 它是Yaf提供的一个全局配置的入口,
 // 在Bootstrap中, 你可以做很多全局自定义的工作
 //$app->bootstrap()->run(); //可选的调用
+
+
+// 当bootstrap被调用的时刻, Yaf_Application就会默认的在APPLICATION_PATH下, 寻找Bootstrap.php,
