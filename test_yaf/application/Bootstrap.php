@@ -15,4 +15,10 @@ class Bootstrap extends Yaf_Bootstrap_Abstract{
     public function _initDefaultName(Yaf_Dispatcher $dispatcher) {
         $dispatcher->setDefaultModule("Index")->setDefaultController("Index")->setDefaultAction("index");
     }
+
+    // 注册插件
+    public function _initPlugins(Yaf_Dispatcher $dispatcher){
+        $user = new UserPlugin();
+        $dispatcher->registerPlugin($user);
+    }
 }
