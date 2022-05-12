@@ -1,0 +1,23 @@
+{
+    "name": "yaokun/test_swoole",
+    "autoload": {
+        "psr-4": {
+            "Yaokun\\TestSwoole\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yaok",
+            "email": "yaok@pingansec.com"
+        }
+    ],
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    },
+    "require": {
+        "swoole/ide-helper": "~4.4.7"
+    }
+}
